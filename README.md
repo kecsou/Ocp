@@ -1,6 +1,6 @@
 # Ocp
 
-``bash
+```sh
 ############################################
 # 0) Set variables (edit these)
 ############################################
@@ -137,6 +137,4 @@ openshift-install agent wait-for install-complete --dir "$WORK"
 export KUBECONFIG="$WORK/auth/kubeconfig"
 oc get nodes
 oc get clusterversion
-
-
-``
+```
